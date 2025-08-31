@@ -1,0 +1,11 @@
+name: TEST
+on:
+  push:
+    branches: 
+			- main
+	workflow_dispatch:
+
+ jobs:
+ 	steps:
+	  - name: Test 1
+	 		run: echo "test success"
